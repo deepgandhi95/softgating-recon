@@ -1,0 +1,19 @@
+Running the softgating recon code:
+
+% Make sure all the required soft-gating functions are on the matlab path
+
+% Make sure all the files required for reconstruction (see below: P-files, etc.) are on the matlab path
+
+% Run the "run_soft_recon" function in matlab using the arguments as shown below:
+
+
+% [f] = run_soft_recon(Patient,PfileName,functype,MAGorPHS,const_width,sigma,cal) %%%%%
+
+% arguments:
+% Patient: Name of the patient (eg. 'P120')
+% P-file: Name of the P-file (eg. 'P00000.7')
+%functype: Name of the soft-gating function you need to reconstruct with (eg. 'Exponential')
+%MAGorPHS: Name of the the soft-gating weight assignments file (eg. 'SoftGating_8Bins_Phs.mat')
+%const_width: Threshold limit (eg.1)
+%sigma: Slope (eg. 0.5)
+%cal: Name of the calibration file ('P00000.7')
