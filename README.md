@@ -8,7 +8,7 @@ Matlab 2020 or later
 GE recon functions (proprietary; not included in this repository)
 
 Usage:
-[f] = run_soft_recon(Patient,PfileName,functype,MAGorPHS,const_width,sigma,cal) %%%%%
+[f] = run_soft_recon(Patient,PfileName,functype,MAGorPHS,const_width,sigma,cal)
 
 Inputs:
 Patient: Name of the patient (eg. 'P120')
